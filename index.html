@@ -6,10 +6,16 @@
   <link rel="stylesheet" href="styles.css">  
   <title>Chatbot Visualization</title>  
 </head>  
-<body>  
-  <input type="file" id="jsonFile" accept=".json" />  
-  <div id="chat-container">  
+<body>   
+  <div id="select-container">  
+  </div> 
+  <div id="local-file-container">  
+    <input type="file" id="jsonFile" accept=".json" />  
   </div>  
+  <div id="chat-container">
+    <div id="chat"></div>
+    <div class="test-container"></div>
+  </div>
   <script src="scripts.js"></script>  
 </body>  
 </html>  
